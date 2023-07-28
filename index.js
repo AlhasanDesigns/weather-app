@@ -17,13 +17,17 @@ async function checkWeather(city){
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+        document.querySelector(".weather-text").innerHTML = data.weather[0].main;
 
-        
+        weatherIcon.src = "images/" + data.weather[0].main.toLowerCase() + ".png";
+        weatherIcon.alt = data.weather[0].main;
 
     } catch (error) {
         console.error('Error:', error);
     }
 }
+
+checkWeather("Tampa");
 
 searchBtn.addEventListener("click", async ()=>{
 

@@ -87,6 +87,10 @@ button:hover {
     margin-top: -10px;
 }
 
+.weather-text {
+    font-size: 1.4rem;
+}
+
 .details {
     display: flex;
     width: 80%;
@@ -109,6 +113,11 @@ button:hover {
 
 p.wind, p.humidity {
     font-weight: 700;
+}
+
+.city {
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 @media (min-width: 428px) {
