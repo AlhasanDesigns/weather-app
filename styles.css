@@ -13,9 +13,9 @@ body {
 .card {
     width: 100%;
     max-width: 530px;
-    background: linear-gradient(135deg, rgba(133,39,132,1) 13%, rgba(27,125,221,1) 61%, rgba(0,212,255,1) 100%);
-    color: #fff; 
-    margin: 100px auto 0;
+    color: #fff;
+    background: rgb(5,190,106);
+    background: linear-gradient(90deg, rgba(5,190,106,1) 22%, rgba(0,212,255,1) 90%);    margin: 100px auto 0;
     border-radius: 20px 20px 0px 0px;
     padding: 40px 15px;
 }
